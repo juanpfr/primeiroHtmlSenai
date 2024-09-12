@@ -55,13 +55,6 @@ table {
 	border-spacing: 0;
 }
 
-h1{
-	text-align: center;
-	padding: 40px 0;
-	color: #202020;
-	font-size: 1.5em;
-}
-
 .marquee{
     background-color: #202020;
 }
@@ -69,6 +62,44 @@ h1{
 .marquee p{
     font-size: 1.5em;
     color: #fff;
-    font-family: "Nerko One";
-    padding: 30px 0;
+    padding: 15px 0 35px 0;
+}
+
+.banner{
+	background-image: url(../img/banner.jpeg);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 312px;
+}
+
+.banner h1{
+	background-color: #fff;
+	text-align: center;
+	color: #202020;
+	font-size: 1.5em;
+	padding: 10px;
+	margin-top: -20px;
+}
+
+.banner h2{
+	text-align: center;
+	padding: 5px;
+	font-size: 1.2em;
+	color: #fff;
+	background: #202020;
+}
+
+.banner h3{
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	font-size: 1.2em;
+	color: #fff;
+	background: #202020;
+}
+
+.notBanner h3{
+	font-size: 3em;
+	text-align: center;
+	padding: 40px 0;
 }
