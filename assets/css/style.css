@@ -138,5 +138,21 @@ table {
 	padding: 20px 0;
 	width: 100%;
 	text-align: center;
-	margin: 10px 0;
+	margin-top: 20px;
+}
+
+.quaseBanner{
+	background-color: #202020;
+	padding: 40px 0;
+}
+
+.quaseBanner h3{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+.quaseBanner iframe{
+	margin: 30px 350px;
+	border-radius: 50px;
 }
