@@ -131,3 +131,12 @@ table {
 	color: #202020;
 	border: 1px #202020 solid;
 }
+
+.notBanner p{
+	background-color: red;
+	color: white;
+	padding: 20px 0;
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
