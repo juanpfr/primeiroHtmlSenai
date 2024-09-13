@@ -59,6 +59,12 @@ table {
 	border-spacing: 0;
 }
 
+.site{
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
 .marquee{
     background-color: #202020;
 }
@@ -155,4 +161,29 @@ table {
 .quaseBanner iframe{
 	margin: 30px 350px;
 	border-radius: 50px;
+}
+
+.quaseBanner h4{
+	color: white;
+	font-size: 1.5em;
+	margin-left: 100px;
+}
+
+.quaseBanner ul{
+	display: flex;
+	gap: 30px;
+	margin: 40px 0 0 250px;
+}
+
+.quaseBanner ul li a{
+	color: #202020;
+	padding: 10px 30px;
+	background-color: #fff;
+	border-radius: 30px;
+}
+
+.quaseBanner ul li a:hover{
+	color: #fff;
+	background-color: #202020;
+	border: 1px solid #fff;
 }
